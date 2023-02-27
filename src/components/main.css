@@ -1,0 +1,31 @@
+.cardBox {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardBox img {
+  width: 300px;
+}
+.box1 {
+}
+.box {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+  .cardBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cardBox img {
+    width: 500px;
+  }
+}
